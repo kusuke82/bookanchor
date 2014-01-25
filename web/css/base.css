@@ -1,0 +1,231 @@
+.sub-title {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 5px 0px 20px 0px;
+	padding: 0px 0px 0px 0px;
+}
+.note {
+	margin-left: 10px;
+	font-size: 0.9em;
+	text-align: left;
+}
+.note-r {
+	margin-right: 10px;
+	font-size: 0.9em;
+	text-align: right;
+}
+
+table.editform,
+table.list {
+	font-size: 0.8em;
+	table-layout: fixed;
+/*	width: 400px;*/
+	border-collapse: collapse;
+	margin: 15px;
+	white-space: normal;
+	text-align: center;
+}
+table.editform th,
+table.list th {
+	width: 100px;
+	padding: 5px;
+	border: 1px solid  #CCCCCC;
+	background-color: #E4E2DE;
+	empty-cells: show;
+	color: #333333;
+	font-weight: normal;
+}
+
+table.editform td,
+table.list td {
+/*	width: 300px;*/
+	padding: 5px;
+/*	padding-left: 0px;*/
+/*	white-space: pre;*/
+/*	word-break: keep-all;*/
+	border: 1px solid  #CCCCCC;
+	empty-cells: show;
+	vertical-align: middle;
+	text-align: left;
+}
+table.editform td label,
+table.list td label {
+/*	padding: 0px,0px.0px,1.5em;
+*//*	display: inline;*/
+/*	float: left;
+	white-space: pre;*/
+	white-space: nowrap;
+}
+
+
+table.stocklist,
+table.list {
+	font-size: x-small;
+	table-layout: fixed;
+	width: 700px;
+	border-collapse: collapse;
+	margin: 15px;
+	white-space: normal;
+	text-align: center;
+}
+table.stocklist th,
+table.list th {
+	font-size: x-small;
+	padding: 5px;
+	border: 1px solid  #CCCCCC;
+	background-color: #E4E2DE;
+	empty-cells: show;
+	color: #333333;
+	font-weight: normal;
+}
+table.stocklist td,
+table.list td {
+	font-size: x-small;
+	padding: 5px;
+	border: 1px solid  #CCCCCC;
+	empty-cells: show;
+	vertical-align: middle;
+	text-align: left;
+	word-break: normal;
+	white-space: normal;
+/*	word-break: keep-all;
+	word-wrap: break-word;
+	white-space: nowrap;*/
+	overflow-x: auto;
+}
+
+table.bookform/*,
+table.list*/ {
+	font-size: 0.8em;
+/*	table-layout: fixed;*/
+	max-width: 600px;
+	width: 600px;
+	border-collapse: collapse;
+	margin: 15px;
+	white-space: normal;
+	text-align: center;
+}
+table.bookform tr th/*,
+table.list th */{
+/*	table-layout: fixed;*/
+	min-width: 50px;
+	max-width: 50px;
+	width: 50px;
+	padding: 5px;
+	border: 1px solid  #CCCCCC;
+	background-color: #E4E2DE;
+	empty-cells: show;
+	color: #333333;
+	font-weight: normal;
+}
+table.bookform tr td/*,
+table.list td*/ {
+/*	colspan: 2;
+	width: auto;*/
+	width: auto;
+	max-width: 200px;
+	table-layout: auto;
+	padding: 5px;
+	border: 1px solid  #CCCCCC;
+	empty-cells: show;
+	vertical-align: middle;
+	text-align: left;
+	word-break: keep-all;
+	white-space: nowrap;
+	overflow-x: auto;
+}
+table.bookform td form,
+table.list td form {
+	white-space: nowrap;
+}
+
+table.submitform {
+	width: 600px;
+	height: 0.5em;
+	border: 0;
+	margin: 15px;
+	background-color: #CCCCCC;
+}
+table.submitform tr td {
+	width: auto;
+/*	height: 0.5em;*/
+	background-color: $CCCCCC;
+}
+/*
+table.tr.td submitform {
+	width: auto;
+	background-color: #CCCCCC;
+}*/
+
+
+table.fillform {
+	width: 600px;
+	font-size: 0.8em;
+	table-layout: auto;
+	border-collapse: collapse;
+	border-collapse: collapse;
+	margin: 15px;
+	white-space: normal;
+	text-align: center;
+}
+table.fillform th {
+	max-width: 50px;
+	min-width: 50px;
+	width: 50px;
+	padding: 5px;
+	border: 1px solid  #CCCCCC;
+	background-color: #E4E2DE;
+	empty-cells: show;
+	color: #333333;
+	font-weight: normal;
+}
+table.fillform tr td {
+	max-width:200px;
+	table-layout: auto;
+	padding: 5px;
+	border: 1px solid  #CCCCCC;
+	empty-cells: show;
+	vertical-align: middle;
+	text-align: left;
+	overflow-x: auto;
+}
+table.fillform td.fillimg {
+/*	width: 100px;*/
+}
+table.fillform td.fillprm {
+	width: 450px;
+	overflow-x: auto;
+}
+table.fillform td.fillchk {
+/*	width: 18px;*/
+}
+table.fillform td.fillbtn {
+/*	width: 28px;*/
+}
+
+#aligncenter {
+	text-align: center;
+}
+#wsnowrap {
+	white-space: nowrap;
+}
+#traction {
+	margin: 0px;
+	width: auto;
+	background-color: #CCCCCC;
+}
+#trfill {
+	width:auto;
+}
+#ofscroll {
+	max-width: 390px;
+	overflow-x: scroll;
+}
+#imgwidth {
+	min-width: 150px;
+	max-width: 150px;/*30%;*/
+	width: 150px;
+}
+#emptyhide {
+	empty-cells: hide;
+}
